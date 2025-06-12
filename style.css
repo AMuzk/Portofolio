@@ -38,11 +38,10 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 100%;
 }
 
 .logo {
-  font-size: 28px; /* menyesuaikan dengan tinggi navbar */
+  font-size: 30px; /* menyesuaikan dengan tinggi navbar */
   font-weight: 600;
   color: #ffffff; /* langsung di atas background gelap */
 }
