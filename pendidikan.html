@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pendidikan - Ahmad Muzaki</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="halaman-pendidikan">
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Pendidikan</h1>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <nav class="nav-links" id="navMenu">
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="pengalaman.html">Pengalaman</a>
+        <a href="pendidikan.html">Pendidikan</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="konten">
+    <section id="contact" class="section">
+		<div class="container">
+      <h2>Pendidikan</h2>
+      <ul>
+        <li><strong>SMK Bhakti Praja Dukuhwaru</strong> – Teknik Elektronika (2019–2022)</li>
+        <li><strong>SMP Negri 2 Jatibarang</strong> – (2016–2019)</li>
+		  <li><strong>MI Asy - Syafi'iyah 01 Jatibarang</strong> - (2010-2016)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Ahmad Muzaki. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
